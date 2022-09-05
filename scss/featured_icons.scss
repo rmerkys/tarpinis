@@ -1,0 +1,29 @@
+
+.features-icons {
+    width: 100%;
+    height: 40rem;
+    padding-top: 22rem;
+    padding-bottom: 4rem;
+
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-icons-item {
+        max-width: 20rem;
+
+        .features-icons-icon {
+            height: 7rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            i {
+                font-size: 4.5rem;
+            }
+        }
+    }
+}

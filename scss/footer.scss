@@ -1,0 +1,34 @@
+.container2 {
+    width: 100%;
+    height: 10rem;
+    padding: 3rem 10rem;
+
+    .row5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .textas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .linkai {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+
+        .iconos {
+            display: flex;
+            align-items: center;
+            float: right;
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                gap: 1rem;
+            }
+        }
+    }
+}

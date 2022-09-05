@@ -1,0 +1,28 @@
+@media (max-width: 320px) {
+    body {
+        .form {
+            flex-direction: column;
+        }
+
+        .features-icons {
+            .container {
+                .row {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .features-icons-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .row1 {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+}
